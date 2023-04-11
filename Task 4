@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
+            string name;
+            int age;
+            string work;
+            string surname;
+            string ZodiacSign;
+            Console.Write("Введите ваше имя: ");
+            name = Console.ReadLine();
+            Console.Write("Введите вашу фамилию: ");
+            surname = Console.ReadLine();
+            Console.Write("Сколько вам лет: ");
+            age = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Ваше место работы? ");
+            work = Console.ReadLine();
+            Console.Write("Ваш знак зодиака? ");
+            ZodiacSign = Console.ReadLine();
+            Console.WriteLine($"Ваше имя: {name}, Ваша фамилия: {surname}, Ваш возраст: {age}, Ваше место работы: {work}, Ваш знак зодиака: {ZodiacSign}");
+
+        }
+    }
+}
