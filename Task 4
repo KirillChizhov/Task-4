@@ -12,11 +12,13 @@ namespace ConsoleApp1
         {
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
+            
             string name;
             int age;
             string work;
             string surname;
-            string ZodiacSign;
+            string zodiacSign;
+            
             Console.Write("Введите ваше имя: ");
             name = Console.ReadLine();
             Console.Write("Введите вашу фамилию: ");
@@ -27,7 +29,7 @@ namespace ConsoleApp1
             work = Console.ReadLine();
             Console.Write("Ваш знак зодиака? ");
             ZodiacSign = Console.ReadLine();
-            Console.WriteLine($"Ваше имя: {name}, Ваша фамилия: {surname}, Ваш возраст: {age}, Ваше место работы: {work}, Ваш знак зодиака: {ZodiacSign}");
+            Console.WriteLine($"Ваше имя:{name},Ваша фамилия:{surname},Ваш возраст:{age},Ваше место работы:{work},Ваш знак зодиака:{ZodiacSign}");
 
         }
     }
