@@ -30,7 +30,6 @@ namespace ConsoleApp1
             Console.Write("Ваш знак зодиака? ");
             zodiacSign = Console.ReadLine();
             Console.WriteLine($"Ваше имя:{name},Ваша фамилия:{surname},Ваш возраст:{age},Ваше место работы:{work},Ваш знак зодиака:{zodiacSign}");
-
         }
     }
 }
